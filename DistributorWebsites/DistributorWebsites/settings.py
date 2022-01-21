@@ -1,4 +1,4 @@
-# Scrapy settings for newphone project
+# Scrapy settings for DistributorWebsites project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'newphone'
+BOT_NAME = 'DistributorWebsites'
 
-SPIDER_MODULES = ['newphone.spiders']
-NEWSPIDER_MODULE = 'newphone.spiders'
+SPIDER_MODULES = ['DistributorWebsites.spiders']
+NEWSPIDER_MODULE = 'DistributorWebsites.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'newphone (+http://www.yourdomain.com)'
+#USER_AGENT = 'DistributorWebsites (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'newphone.middlewares.NewphoneSpiderMiddleware': 543,
+#    'DistributorWebsites.middlewares.DistributorwebsitesSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'newphone.middlewares.NewphoneDownloaderMiddleware': 543,
+#    'DistributorWebsites.middlewares.DistributorwebsitesDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'newphone.pipelines.NewphonePipeline': 300,
+#    'DistributorWebsites.pipelines.DistributorwebsitesPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

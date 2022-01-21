@@ -6,7 +6,7 @@
 import scrapy
 
 
-class NewphoneItem(scrapy.Item):
+class SpecswebsitesItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
