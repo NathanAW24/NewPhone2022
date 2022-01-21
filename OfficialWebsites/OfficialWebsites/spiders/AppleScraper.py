@@ -25,4 +25,5 @@ class AppleSpider(scrapy.Spider):
             items['name'] = name
             items['price'] = price
 
-            yield items  # type 'scrapy crawl apple -o appleRaw.csv -t csv' in terminal to save it as csv
+            yield items
+            # type 'scrapy crawl apple -o appleRaw.csv -t csv' in terminal to save it as csv
