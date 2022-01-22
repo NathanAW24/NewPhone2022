@@ -1,5 +1,5 @@
-name,price
-ASUS Zenfone 8 ZS590KS-2A058WW (Obsidian Black),S$999.00
-ROG Phone 5s ZS676KS-1A085WW (Phantom Black),"S$1,599.00"
-ROG Phone 5s ZS676KS-1B086WW (Storm White),"S$1,599.00"
-ROG Phone 5s Pro ZS676KS-1A047WW,"S$1,799.00"
+brand,name,price
+asus,ASUS Zenfone 8 ZS590KS-2A058WW (Obsidian Black),S$999.00
+asus,ROG Phone 5s ZS676KS-1A085WW (Phantom Black),"S$1,599.00"
+asus,ROG Phone 5s ZS676KS-1B086WW (Storm White),"S$1,599.00"
+asus,ROG Phone 5s Pro ZS676KS-1A047WW,"S$1,799.00"

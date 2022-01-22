@@ -25,5 +25,6 @@ class SonySpider(scrapy.Spider):
 
             items['name'] = name
             items['price'] = price
+            items['brand'] = 'sony'
 
             yield items
