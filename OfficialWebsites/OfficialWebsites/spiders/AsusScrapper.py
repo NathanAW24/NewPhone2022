@@ -24,15 +24,26 @@ class AsusSpider(scrapy.Spider):
         prices = response.xpath(
             '//*[contains(concat( " ", @class, " " ), concat( " ", "price-wrapper", " " ))]//*[contains(concat( " ", @class, " " ), concat( " ", "price", " " ))]/text()')
 
-        print(len(prices), prices[0].extract())
+        # print(len(prices), prices.extract())
+        # print(len(names), names.extract())
 
-        for a, b in zip(names, range(len(prices))):
-            name = a.extract().strip()  # lstrip().rstrip()
-            price = prices[b].extract()
-            items['name'] = name
+        names_ls = names.extract()
+        prices_ls = prices.extract()
+
+        for i in range(8):
+            name = names_ls[i].strip()
+            price = prices_ls[2*i]
             items['price'] = price
-            b += 2
+            items['name'] = name
             yield items
+
+        # for b in range(len(prices)):
+        #     # name = a.extract().strip()  # lstrip().rstrip()
+        #     price = prices[b].extract()
+        #     # items['name'] = name
+        #     items['price'] = price
+        #     b += 2
+        #     yield items
 
         # for phone in names:
         #     name = phone.css("a.product-item-link::text").extract()[0].strip()
