@@ -16,8 +16,8 @@ class SonySpider(scrapy.Spider):
         prices = response.xpath(
             '//*[contains(concat( " ", @class, " " ), concat( " ", "price", " " ))]//strong/text()')
 
-        names_ls = names.extract()
-        prices_ls = prices.extract()
+        names_ls = names.extract()  # returns a list
+        prices_ls = prices.extract()  # returns a list
 
         for i in range(len(prices_ls)):
             price = prices_ls[i]
