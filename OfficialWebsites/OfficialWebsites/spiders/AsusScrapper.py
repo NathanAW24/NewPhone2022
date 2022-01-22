@@ -34,9 +34,12 @@ class AsusSpider(scrapy.Spider):
         for i in range(int(len(prices_ls)/2)):
             name = names_ls[i].strip()
             price = prices_ls[2*i]
+
             items['price'] = price
             items['name'] = name
             items['brand'] = 'asus'
+            items['store'] = 'Official'
+
             yield items
 
         # for b in range(len(prices)):

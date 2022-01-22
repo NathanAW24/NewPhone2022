@@ -25,6 +25,7 @@ class AppleSpider(scrapy.Spider):
             items['name'] = name
             items['price'] = price
             items['brand'] = 'apple'
+            items['store'] = 'Official'
 
             yield items
             # type 'scrapy crawl apple -o appleRaw.csv -t csv' in terminal to save it as csv
