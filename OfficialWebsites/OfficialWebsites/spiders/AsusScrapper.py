@@ -6,7 +6,8 @@ import time
 class AsusSpider(scrapy.Spider):
     name = 'asus'
     start_urls = [
-        'https://sg.store.asus.com/phone.html'
+        'https://sg.store.asus.com/phone.html?cat=74',  # link for asus
+        'https://sg.store.asus.com/phone.html?cat=75'  # link for rog
     ]
 
     def parse(self, response):
@@ -30,7 +31,7 @@ class AsusSpider(scrapy.Spider):
         names_ls = names.extract()
         prices_ls = prices.extract()
 
-        for i in range(8):
+        for i in range(int(len(prices_ls)/2)):
             name = names_ls[i].strip()
             price = prices_ls[2*i]
             items['price'] = price
