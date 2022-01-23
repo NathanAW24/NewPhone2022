@@ -18,8 +18,8 @@ class SpecswebsitesItem(scrapy.Item):
     build = scrapy.Field()
     SIM = scrapy.Field()
 
-    displayType = scrapy.Field()  # Hz included in here
-    size = scrapy.Field()
+    displayType = scrapy.Field()  # Hz included in herex
+    size = scrapy.Field()  # contains diagonal also but also area
     resolution = scrapy.Field()
 
     OS = scrapy.Field()
@@ -29,17 +29,19 @@ class SpecswebsitesItem(scrapy.Item):
 
     SDCard = scrapy.Field()  # have or not
     internalMemory = scrapy.Field()  # RAM included in here
-
-    batteryCapacity = scrapy.Field()
+    RAM = scrapy.Field()  # just add one more to specify RAM
 
     earphoneJack = scrapy.Field()  # have or not
 
+    sensors = scrapy.Field()
+
     WLAN = scrapy.Field()
     bluetooth = scrapy.Field()
-    GPS = scrapy.Field()
     NFC = scrapy.Field()
     USB = scrapy.Field()
 
+    batteryType = scrapy.Field()
+    batteryCapacity = scrapy.Field()
     batteryLife = scrapy.Field()
 
     pass
