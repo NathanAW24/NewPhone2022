@@ -1,0 +1,13 @@
+Specs to look for:
+- Battery
+- Memory
+    - RAM
+    - ROM
+    - SD Card Storage (Have or not)
+- Processor
+- RAM
+- Screen Size
+    - Height
+    - Width
+    - Diagonal
+- Operating System
