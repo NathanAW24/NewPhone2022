@@ -44,4 +44,5 @@ class SpecswebsitesItem(scrapy.Item):
     batteryCapacity = scrapy.Field()
     batteryLife = scrapy.Field()
 
+    sourceInfo = scrapy.Field()
     pass
