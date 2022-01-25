@@ -12,4 +12,5 @@ class OfficialwebsitesItem(scrapy.Item):
     name = scrapy.Field()
     price = scrapy.Field()
     brand = scrapy.Field()
+    store = scrapy.Field()
     pass
