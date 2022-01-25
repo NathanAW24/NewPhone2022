@@ -16,6 +16,8 @@ By scraping through the official websites of apple, asus, and sony, I am able to
 ## Structure
 This repository consists of two folders, <a href='https://github.com/NathanAW24/NewPhone2022/tree/nathan-commits/OfficialWebsites'>OfficialWebsites<a> and <a href='https://github.com/NathanAW24/NewPhone2022/tree/nathan-commits/SpecsWebsites'>SpecsWebsites<a>. OfficialWebsites is created to scrape for the available phones and their pricings while SpecsWebsites is created to scrape for the specifications from gsmarena.
 
+There is also a <a href='https://github.com/NathanAW24/NewPhone2022/blob/nathan-commits/cleanData.ipynb'>cleanData.ipynb<a> file which contains the code for cleaning and filtering the phone options.
+
 ## Installation
 If you have git, type this code in your terminal (bash/cmd/powershell) to clone the repository in your preferred location.
 ```
@@ -23,4 +25,4 @@ git clone https://github.com/NathanAW24/NewPhone2022.git
 ```
 Otherwise, you can try to download this manually by zip.
 
-This is just a temporary readme, I will update sooner when its more established.
+(Update on the specifications)
