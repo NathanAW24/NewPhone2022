@@ -3,7 +3,7 @@
 ## Overview
 This repository helds the scrapy spider for scraping the website <a href='https://www.gsmarena.com/'>gsmarena</a> to get the detailed specifications for the available phones. In the <a href=https://github.com/NathanAW24/NewPhone2022/tree/main/SpecsWebsites/SpecsWebsites/spiders>spiders</a> folder there is one scraper which scrapes from <a href='https://www.gsmarena.com/'>gsmarena</a> directly.
 
-Go back from there one directory there is an <a href='https://github.com/NathanAW24/NewPhone2022/tree/main/SpecsWebsites/SpecsWebsites'>SpecsWebsites</a> folder which contains all the required support python codes for the scrapy spider to work. Specifically, the <a href='https://github.com/NathanAW24/NewPhone2022/blob/main/OfficialWebsites/OfficialWebsites/items.py'>items.py</a> file, is heavily required to create the fields/columns/features to store the scraped data. I tried to include as many features as possible, but not all of them will be used directly. Some of them will just be additional information for the client to look at.
+Go back from there one directory there is an <a href='https://github.com/NathanAW24/NewPhone2022/tree/main/SpecsWebsites/SpecsWebsites'>SpecsWebsites</a> folder which contains all the required support python codes for the scrapy spider to work. Specifically, the <a href='https://github.com/NathanAW24/NewPhone2022/blob/main/SpecsWebsites/SpecsWebsites/items.py'>items.py</a> file, is heavily required to create the fields/columns/features to store the scraped data. I tried to include as many features as possible, but not all of them will be used directly. Some of them will just be additional information for the client to look at.
 
 As specified previously, the required specifications are:
 - Strong Battery (> 3500 mAh)
