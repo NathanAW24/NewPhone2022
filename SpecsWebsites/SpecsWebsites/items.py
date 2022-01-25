@@ -18,7 +18,7 @@ class SpecswebsitesItem(scrapy.Item):
     build = scrapy.Field()
     SIM = scrapy.Field()
 
-    displayType = scrapy.Field()  # Hz included in herex
+    displayType = scrapy.Field()  # Hz included in here
     size = scrapy.Field()  # contains diagonal also but also area
     resolution = scrapy.Field()
 
