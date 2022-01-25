@@ -11,10 +11,10 @@ From online research through multiple websites, the recommended specifications a
 - Earphone jack available
 - Diagonal size (6.0 inches - 6.5 inches)
 
-By scraping through the official websites of apple, asus, and sony, I am able to see the models they are currently selling and their respective prices. After getting data on the phones they are selling, I also scraped gsmarena.com to get the specs for each model. Then, after compilling the two available dataset, I am able to continue cleaning and filtering the data based on the recommended specifications.
+By scraping through the official websites of apple, asus, and sony, I am able to see the models they are currently selling and their respective prices. After getting data on the phones they are selling, I also scraped <a href='gsmarena.com'>gsmarena</a> to get the specs for each model. Then, after compilling the two available dataset, I am able to continue cleaning and filtering the data based on the recommended specifications.
 
 ## Structure
-This repository consists of two folders, <a href='https://github.com/NathanAW24/NewPhone2022/tree/nathan-commits/OfficialWebsites'>OfficialWebsites</a> and <a href='https://github.com/NathanAW24/NewPhone2022/tree/nathan-commits/SpecsWebsites'>SpecsWebsites</a>. OfficialWebsites is created to scrape for the available phones and their pricings while SpecsWebsites is created to scrape for the specifications from gsmarena.
+This repository consists of two folders, <a href='https://github.com/NathanAW24/NewPhone2022/tree/nathan-commits/OfficialWebsites'>OfficialWebsites</a> and <a href='https://github.com/NathanAW24/NewPhone2022/tree/nathan-commits/SpecsWebsites'>SpecsWebsites</a>. OfficialWebsites is created to scrape for the available phones and their pricings while SpecsWebsites is created to scrape for the specifications from <a href='gsmarena.com'>gsmarena</a>.
 
 There is also a <a href='https://github.com/NathanAW24/NewPhone2022/blob/nathan-commits/cleanData.ipynb'>cleanData.ipynb</a> file which contains the code for cleaning and filtering the phone options.
 
