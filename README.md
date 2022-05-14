@@ -22,6 +22,11 @@ Required Python Libraries:
 - Scrapy
 - pandas
 
+To install those libraries, use this command in your terminal.
+```
+pip install -r requirements.txt
+```
+
 ## Installation
 If you have git, type this code in your terminal (bash/cmd/powershell) to clone the repository in your preferred location.
 ```
